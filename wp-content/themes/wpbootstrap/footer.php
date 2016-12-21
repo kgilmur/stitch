@@ -37,12 +37,13 @@
            cache: false,
            data:{
               action: 'send_email',
-              name: name,
               email: email,
+              companyname: companyname,
                 },
            success:function(res){
                alert("Email Sent.");
                }
                       });
 });
+
 </script>

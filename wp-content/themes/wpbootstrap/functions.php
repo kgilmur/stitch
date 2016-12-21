@@ -31,6 +31,10 @@ function callback_send_email(){
     if($mail){
           echo "Email Sent Successfully";
           }
+    wp_die();
 }
+
+
+
 
 ?>
